@@ -29,11 +29,11 @@ public class Main {
         int det = this.aX * this.bY + this.bX * this.cY + this.cX * this.aY - this.cX*this.bY- this.aX * this.cX - this.bX * this.aY;
 
         if (det > 0) {
-            System.out.print("Punkt c znajduje się po lewej stronie wektora AB");
+            System.out.print( det +"   Punkt c znajduje się po lewej stronie wektora AB");
         } else if (det == 0) {
-            System.out.print("Punkty są wspoliniowe");
+            System.out.print( det +"   Punkty są wspoliniowe");
         } else {
-            System.out.print("Punkt c znajduje się po prawej stronie wektora AB");
+            System.out.print( det +"   Punkt c znajduje się po prawej stronie wektora AB");
         }
     }
 
